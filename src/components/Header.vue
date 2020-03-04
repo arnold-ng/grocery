@@ -16,7 +16,7 @@ export default {
   data(){
     return{
         msg: 'Grocery List'
-        }
+    }
   },
   props:{
     title:{
@@ -55,14 +55,14 @@ ul{
     margin: 0;
 }
 li{
-    
     display: inline-block;
     margin: 0 10px;
 }
 li a{
-  
   font-size: 18px;
   color:ivory;
-    
+}
+li:hover {
+  opacity: 0.8;
 }
 </style>
